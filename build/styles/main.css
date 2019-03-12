@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+@font-face {
+  font-family: OpenSans;
+  src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato-Regular.ttf");
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #F2EFEC;
+  font-family: "Lato";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header {
+  background-color: #D9D1C8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 2em;
+}
+
+#header #branding a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #494748;
+  padding: 1em 0;
+  white-space: pre;
+  font-family: 'OpenSans';
+  font-size: 1em;
+}
+
+#header #branding a span {
+  font-family: 'Dancing Script';
+  font-size: 3em;
+}
+
+#header #navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header #navbar a {
+  display: block;
+  color: #494748;
+  text-decoration: none;
+  padding: 1em;
+  margin-bottom: 3px;
+}
+
+#header #navbar a:hover {
+  color: #F2EFEC;
+  border-bottom: 3px solid #494748;
+  margin-bottom: 0;
+}
+
+#header #navbar #active_page {
+  border-bottom: 3px solid #494748;
+  margin-bottom: 0;
+}
+
+#header .social_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#header .social_links li {
+  width: 1em;
+  height: 1em;
+  margin: 1em;
+}
+
+#header .social_links li:hover {
+  cursor: pointer;
+}
+
+#header .social_links .twitter {
+  background-image: url(../images/twitter.svg);
+}
+
+#header .social_links .facebook {
+  background-image: url(../images/facebook.svg);
+}
+
+#header .social_links .instagram {
+  background-image: url(../images/instagram.svg);
+}
+
+#footer {
+  background-color: #D9D1C8;
+  font-family: 'OpenSans';
+  text-align: center;
+  bottom: 0;
+  padding: 1em;
+  display: block;
+}
+
+.about_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about_container .artist_about_description {
+  font-family: 'OpenSans';
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  margin: 10em 10em 0 10em;
+}
+
+.about_container .artist_about_description h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.about_container .artist_about_description p {
+  display: block;
+}
+
+.about_container .artist_portrait {
+  margin: 2em;
+  background-color: #D9D1C8;
+  width: 100%;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.about_container .artist_portrait img {
+  width: 900px;
+  padding: 1em;
+  border-radius: 10%;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,53 @@
+#header
+    background-color: $COLOR_2
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+    padding: 0 2em
+    #branding
+        a
+            text-decoration: none
+            display: flex
+            flex-direction: column
+            align-items: center
+            color: $COLOR_5
+            padding: 1em 0
+            white-space: pre
+            span
+                font-family: 'Dancing Script'
+                font-size: 3em
+            font-family: 'OpenSans'
+            font-size: 1em
+    #navbar
+        display: flex
+        a
+            display: block
+            color: $COLOR_5
+            text-decoration: none
+            padding: 1em
+            margin-bottom: 3px
+
+            &:hover
+                color: $COLOR_1
+                border-bottom: 3px solid $COLOR_5
+                margin-bottom: 0
+        #active_page
+            border-bottom: 3px solid $COLOR_5
+            margin-bottom: 0
+    .social_links
+        display: flex
+        li
+            width: 1em
+            height: 1em
+            margin: 1em
+            &:hover
+                cursor: pointer
+        .twitter
+            background-image:url(../images/twitter.svg)
+        .facebook
+            background-image:url(../images/facebook.svg)
+        .instagram
+            background-image:url(../images/instagram.svg)
+
+
